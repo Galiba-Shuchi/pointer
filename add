@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int X=10,y=20,sum;
+
+int *ptr1, *ptr2;
+ptr1=&X;
+ptr2=&y;
+
+sum=*ptr1+*ptr2;
+
+printf("sum=%d\n",sum);
+
+
+
+
+
+
+    getch();
+}
+
